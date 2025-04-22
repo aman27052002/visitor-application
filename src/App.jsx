@@ -4,7 +4,7 @@ import Signup from './pages/Signup';
 import AdminDashboard from './pages/AdminDashboard';
 import GatekeeperDashboard from './pages/GatekeeperDashboard';
 import { useState } from 'react';
-import ProtectedRoute from './components/ProtectedRoute';
+import ProtectedRoute from './components/protectedRoute';
 
 function App() {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem('user')));
